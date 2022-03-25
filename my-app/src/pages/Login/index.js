@@ -3,6 +3,7 @@ import React from 'react';
 import './styles.css';
 
 import logo from '../../assets/spotify-clone-app-logo-white.png';
+import { urlLogin } from './constants';
 
 function Login() {
     return (
@@ -14,10 +15,7 @@ function Login() {
             </div>
             <div className="content">
                 <a
-                    href={
-                        process.env.REACT_APP_AUTH_API_URL ||
-                        'http://localhost:8888/login'
-                    }
+                    href={urlLogin}
                     rel="nooper noreferrer"
                 >
                     <button type="button">Fazer login no Spotify</button>
