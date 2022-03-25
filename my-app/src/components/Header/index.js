@@ -58,9 +58,9 @@ function Header({ sidebarState }) {
                 >
                     <ul>
                         <li>
-                            <Link to="/profile">Perfil</Link>
+                            <Link to="/profile">Profil</Link>
                         </li>
-                        <li onClick={logout}>Sair</li>
+                        <li onClick={logout}>Logout</li>
                     </ul>
                 </div>
             </div>
